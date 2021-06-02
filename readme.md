@@ -1,1 +1,1 @@
-![my face](https://avatars.githubusercontent.com/notionparallax)
+![my face](https://avatars.githubusercontent.com/notiopnparallax)
