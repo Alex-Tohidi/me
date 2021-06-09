@@ -83,7 +83,7 @@ def really_shout(a_string):
     that you've reused the function you already wrote.
     Look up how to 'concatinate' strings to make this happen.
     """
-    the_answer = None
+    the_answer = shout(a_string)+"!"
 
     return the_answer
 
