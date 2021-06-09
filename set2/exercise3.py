@@ -85,7 +85,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    return None
+    List1 = [[]]
+    List2 =[]
+    for i in range(10):
+        for v in range(10): 
+           List2.append('*')
+        List1.add(List2)
+    return List1
 
 
 def loops_3():
