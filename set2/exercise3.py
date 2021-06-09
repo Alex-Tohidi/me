@@ -35,14 +35,9 @@ def fix_it(moves=True, should_move=True):
         if (should_move):
             return ("WD-40")
         else:
-
             return ("No Problem")
     
 
-
-    
-
-    return None
 
 
 def loops_1a():
