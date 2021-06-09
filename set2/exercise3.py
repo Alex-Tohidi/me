@@ -26,16 +26,12 @@ def fix_it(moves=True, should_move=True):
     As an extra challenge, see if you can get that down to three.
     """
     if (moves):
-        if (should_move):
-            return ("No Problem")
-        else:
-            return ("Duct Tape")
-        
+        if (~should_move):
+            return ("Duct Tape")        
     else:
         if (should_move):
             return ("WD-40")
-        else:
-            return ("No Problem")
+    return ("No Problem")
     
 
 
