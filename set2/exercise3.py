@@ -26,13 +26,13 @@ def fix_it(moves=True, should_move=True):
     As an extra challenge, see if you can get that down to three.
     """
 
-    if (moves):
-        if (should_move):
+    if moves:
+        if should_move:
             return "No Problem"
         else:
             return "Duct Tape"        
     else:
-        if (should_move):
+        if should_move:
             return "WD-40"
         else:
             return "No Problem"
@@ -88,9 +88,9 @@ def loops_2():
     List1 = [[]]
     List2 =[]
     for i in range(10):
-        for v in range(10): 
-           List2.append('*')
-        List1.add(List2)
+        List2.append('*')
+    for j in range(10):
+        List1.append(List2)
     return List1
 
 
