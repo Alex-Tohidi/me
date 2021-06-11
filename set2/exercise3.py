@@ -85,12 +85,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    List1 = [[]]
+    List1 = []
     List2 =[]
     for i in range(10):
         List2.append('*')
-    for j in range(10):
+    for v in range(10):             
         List1.append(List2)
+    
     return List1
 
 
@@ -115,7 +116,16 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return None
+    Final = []
+    temp  = []
+    i = 0
+    for i in range (10):
+        for j in range (10):
+            temp.append(str(i))
+        Final.append(temp)
+        temp = []    
+
+    return Final
 
 
 def loops_4():
@@ -135,7 +145,16 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return None
+    Final = []
+    temp  = []
+    i = 0
+    for i in range (10):
+        for j in range (10):
+            temp.append(str(j))
+        Final.append(temp)
+        temp = []    
+
+    return Final
 
 
 def loops_5():
