@@ -39,7 +39,7 @@ def advancedGuessingGame():
     up = exercise1.not_number_rejector (upperBound)
 
     print("OK then, a number between {} and {} ?".format(low,up))
-    upperBound = int(upperBound)
+    #upperBound = int(upperBound)
 
     actualNumber = exercise1.stubborn_asker(low, up )
     
