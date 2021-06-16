@@ -2,10 +2,10 @@
 
 Steps on the way to making your own guessing game.
 """
-
+import os
 import random
 
-from . import exercise1
+import exercise1
 
 
 def advancedGuessingGame():
@@ -29,16 +29,19 @@ def advancedGuessingGame():
     """
     print("\nWelcome to the guessing game!")
     print("A number between ? and _ ?")
-    lowerBound = input("Enter an lower bound: ")
-    exercise1.not_number_rejector (lowerBound)
+    print("lower bound:")
+    #lowerBound = input("Enter an lower bound: ")
+    lowerBound = 0
+    low = exercise1.not_number_rejector (lowerBound)
 
-    upperBound = input("Enter an upper bound: ")
-    exercise1.not_number_rejector (upperBound)
+    print("Upper bound:")
+    upperBound = 100
+    up = exercise1.not_number_rejector (upperBound)
 
-    print("OK then, a number between {} and {} ?".format(lowerBound,upperBound))
+    print("OK then, a number between {} and {} ?".format(low,up))
     upperBound = int(upperBound)
-
-
+    exercise1.stubborn_asker(low, up )
+    
     return "You got it!"
     # the tests are looking for the exact string "You got it!". Don't modify that!
 

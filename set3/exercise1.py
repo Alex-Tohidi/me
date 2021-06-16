@@ -68,7 +68,7 @@ def not_number_rejector(message):
         else:
             #number was successfully parsed!
             #we're ready to exit the loop.
-            break
+            return inputNumber
 
 
 def super_asker(low, high):
