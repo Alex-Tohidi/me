@@ -2,6 +2,14 @@ name: Alex Tohidi
 studentNumber: z3534026
 officialEmail: a.tohidi@unsw.edu.au
 contactEmail: # don't write on this line
+<<<<<<< HEAD
   # if your email is
   firstBit: alex.tohidi # this avoids spam, the @ is implied
   otherBit: gmail.com
+=======
+  firstBit: firstName.Lastname # this avoids spam, the @ is implied
+  otherBit: whereIwork.com
+# accounts
+stackOverflowLink: https://stackoverflow.com/users/1835727/ben
+github: notionparallax
+>>>>>>> 26db73abac3116bbf137899cce4f43e15cf52107
